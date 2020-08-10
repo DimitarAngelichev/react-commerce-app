@@ -1,0 +1,34 @@
+th, td, tr {
+  border: 2px solid #c4c4c4;
+}
+td {
+  border: 2px solid #c4c4c4;
+}
+.order-container{
+    margin: 2em 0;
+}
+.order-number, .order-items, .price{
+    padding: 2em;
+    vertical-align: middle;
+}
+.status{    
+    padding: 2em 4em;
+}
+.status::first-letter{
+    text-transform:uppercase;
+}
+.status > p{
+    vertical-align: middle !important;
+}
+.order-items ul li{
+    color: black;
+    text-align: left;
+}
+ul{
+    list-style-type: none;
+}
+.order-items ul li:before{ 
+    content: "-";
+    left: -5px;
+    position: relative;
+}

@@ -1,0 +1,31 @@
+.orders-table{
+  width: 100%;
+  margin: -1em 3.5em;
+}
+.headline{
+  display: flex;
+  align-items: center;
+  padding: 0.5em 0;
+  width: 100%;
+  height: 3em;
+  color: white;
+  background-color: red;
+  
+  font-weight: bold;
+  font-size: smaller;
+}
+.headline h1{
+    margin-left: 2em;
+}
+.order-container{
+  width: 100%;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid #c4c4c4 !important;
+
+}  
+table, th, td {
+  border: 2px solid #c4c4c4 !important;
+}
